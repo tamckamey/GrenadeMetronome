@@ -17,5 +17,6 @@ This project is intended to act a metronome of sorts for first person shooters. 
 To use this program, you can simply run `python main.py` from within the program directory.
 *You may need to change the command based on your python keyword.*
 
+---
 Icon Attribution:
 Grenade by iconghost from [Noun Project](https://thenounproject.com/browse/icons/term/grenade/) (CC BY 3.0)
