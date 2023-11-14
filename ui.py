@@ -35,7 +35,6 @@ class MainUI(Thread):
                 
     def handleWindow(self):
         event, values = window.read()
-        print(event)
         if event == "Timer":
             try:
                 self.interval = int(values["Timer"])

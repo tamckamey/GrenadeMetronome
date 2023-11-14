@@ -14,7 +14,6 @@ class Beeper(Thread):
         self.running = True
         while self.running:
             self.iteration += 1
-            print(self.interval, self.iteration)
             if (self.iteration >= self.interval):
                 self.loudBeep = True
                 self.iteration = 0
