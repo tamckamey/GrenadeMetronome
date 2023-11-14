@@ -14,7 +14,7 @@ layout = [
     ]
 ]
 
-window = gui.Window("Grenade Sound", layout, icon="assets/grenade.ico")
+window = gui.Window("Grenade Metronome", layout, icon="assets/grenade.ico")
 
 
 class MainUI(Thread):
