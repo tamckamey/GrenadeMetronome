@@ -14,7 +14,8 @@ layout = [
     ]
 ]
 
-window = gui.Window("Grenade Sound", layout)
+window = gui.Window("Grenade Sound", layout, icon="assets/grenade.ico")
+
 
 class MainUI(Thread):
     def __init__(self):
